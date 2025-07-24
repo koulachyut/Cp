@@ -1,0 +1,27 @@
+# Ignore compiled binary files
+*.exe
+*.out
+*.o
+
+# Ignore debugging and core dump files
+*.log
+*.stackdump
+core
+
+# Ignore temporary/backup files created by editors
+*~
+*.swp
+*.swo
+.DS_Store
+
+# Ignore C++ build artifacts
+*.class
+*.obj
+*.gch
+
+# Ignore Visual Studio Code workspace settings (optional)
+.vscode/
+
+# Ignore input/output files (if you save test cases locally)
+input.txt
+output.txt
