@@ -10,6 +10,9 @@ int main(){
     //second.second = outgoing
     //second= index;
 
+    for(int i=0;i<n;i++){
+        cin>> customers[i].first.first >> customers[i].first.second;
+        customers[i].second=i;
     }
     sort(customers.begin(),customers.end());
     vector<int> roomassigned(n);
